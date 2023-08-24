@@ -13,7 +13,7 @@ const AdminLayout = () => {
               <Link to="skills">Skills</Link>
               <Link to="education">Education</Link>
               <Link to="experiences">Experiences</Link>
-              <Link to="works">Works</Link>
+              <Link to="projects">Projects</Link>
               <Link to="contact">Contact</Link>
             </div>
             <div className="header-buttons">

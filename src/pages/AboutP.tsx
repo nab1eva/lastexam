@@ -40,13 +40,12 @@ const AboutP = () => {
           <h1 className="more">More Info</h1>
 
           <p>
-            - Certainly, here's an expanded version with more than 200 words: In
-            2020, I achieved a notable milestone by securing an impressive IELTS
-            score of 6.5, which stands as a testament to my strong command over
+            - In 2020, I achieved a notable milestone by securing an impressive IELTS
+            score of 7, which stands as a testament to my strong command over
             the English language. This proficiency has proven invaluable in my
             academic pursuits and interactions on a global scale. Beyond
             English, my linguistic versatility encompasses Japanese, Russian,
-            German, Arabic, and English, allowing me to effortlessly connect
+            German, Arabic, allowing me to effortlessly connect
             with diverse cultures and communities. <br /> <br /> - Throughout my
             university journey, I actively engaged in a multitude of impactful
             projects that showcased my prowess in front-end web development. My

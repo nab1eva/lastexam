@@ -1,4 +1,3 @@
-import { ReactNode } from "react";
 import { BrowserRouter, Routes, Route, Navigate } from "react-router-dom";
 
 import LoginP from "./pages/LoginP";
@@ -12,7 +11,7 @@ import MessagesP from "./pages/MessagesP";
 import AboutP from "./pages/AboutP";
 import {registerAuth, useAuth} from "./states/auth";
 import RegisterP from "./pages/RegiterP";
-import WorksP from "./pages/Works";
+import ProjectsP from "./pages/Projects";
 import ContactP from "./pages/ContactP";
 
 function App() {
@@ -32,7 +31,7 @@ function App() {
           <Route path="education" element={<EducationP />} />
           <Route path="messages" element={<MessagesP />} />
           <Route path="about" element={<AboutP />} />
-          <Route path="works" element={<WorksP />} />
+          <Route path="projects" element={<ProjectsP />} />
           <Route path="contact" element={<ContactP />} />
         </Route>
       </Routes>
