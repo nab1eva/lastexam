@@ -5,7 +5,7 @@ const SkillsP = () => {
   useEffect(() => {
     const dataFetch = async () => {
       const data = await await fetch(
-        "https://ap-portfolio-backend.up.railway.app/api/v1/skills?user=64e4bb1259f21d00144a30fc"
+        "https://ap-portfolio-backend.up.railway.app/api/v1/skills?limit=12&user=64e4bb1259f21d00144a30fc"
       );
       let actualData = await data.json();
       if (actualData.data) setData(actualData.data);
