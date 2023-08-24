@@ -4,7 +4,21 @@ const AboutP = () => {
       <section className="about">
         <div className="container">
           <h1 className="login-title">About</h1>
-          
+          <div className="info">
+            <ul>
+              <li>
+                Date of birth: <span>2003, August 20</span>
+              </li>
+              <li>
+                Age: <span>20</span>
+              </li>
+              <li>
+                Degree: <span>Junior</span>
+              </li>
+              <li></li>
+              <li></li>
+            </ul>
+          </div>
           <p>
             I am a highly motivated Front End Developer with a deep passion for
             crafting exceptional web experiences. With expertise in HTML, CSS,
@@ -33,22 +47,23 @@ const AboutP = () => {
             academic pursuits and interactions on a global scale. Beyond
             English, my linguistic versatility encompasses Japanese, Russian,
             German, Arabic, and English, allowing me to effortlessly connect
-            with diverse cultures and communities. <br /> <br /> - Throughout my university
-            journey, I actively engaged in a multitude of impactful projects
-            that showcased my prowess in front-end web development. My
+            with diverse cultures and communities. <br /> <br /> - Throughout my
+            university journey, I actively engaged in a multitude of impactful
+            projects that showcased my prowess in front-end web development. My
             dedication extended to excelling in ICT courses, allowing me to
             master intricate technological concepts and their real-world
-            applications. <br /> <br /> - A standout achievement during this period was my
-            recognition as the top student amongst my peers at "Najot Ta'lim"
-            for an impressive five-month duration. This recognition reflects my
-            commitment to academic excellence, leadership qualities, and
-            diligent work ethic. <br /> <br /> - As I look ahead, I am determined to channel my
-            accomplishments into a dynamic professional career. I am excited to
-            contribute my multifaceted skills and experiences to innovative
-            projects, collaborate with talented teams, and continually challenge
-            myself to achieve new heights. These achievements, combined with an
-            unyielding passion for growth, make me a motivated candidate poised
-            to excel in any endeavor I undertake.
+            applications. <br /> <br /> - A standout achievement during this
+            period was my recognition as the top student amongst my peers at
+            "Najot Ta'lim" for an impressive five-month duration. This
+            recognition reflects my commitment to academic excellence,
+            leadership qualities, and diligent work ethic. <br /> <br /> - As I
+            look ahead, I am determined to channel my accomplishments into a
+            dynamic professional career. I am excited to contribute my
+            multifaceted skills and experiences to innovative projects,
+            collaborate with talented teams, and continually challenge myself to
+            achieve new heights. These achievements, combined with an unyielding
+            passion for growth, make me a motivated candidate poised to excel in
+            any endeavor I undertake.
           </p>
         </div>
       </section>
